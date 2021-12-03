@@ -25,6 +25,9 @@
     width: 92%
   .search
     margin-left: 47px
+  .navbar
+    &-top
+      padding-bottom: 28px
 
 @media (max-width: 700px)
   .logo
@@ -65,15 +68,23 @@
       &__offer
         order: -1
         margin-left: 0
-@media (max-width: 320px)
+@media (max-width: 480px)
   .container
     max-width: 280px
   .navbar
     &-top
-      padding-top: 28px
+      padding-top: 23px
       padding-bottom: 29px
       &__menu
         &-button
           align-self: flex-end
   .hotel
     padding-top: 5px
+    &-info
+      &__name
+        margin-top: 0
+      &__offer
+        margin-top: -7px
+  .stars
+    margin-right: 15px
+    margin-bottom: 10px
